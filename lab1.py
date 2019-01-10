@@ -11,6 +11,6 @@ print(r.text)
 a = requests.get("https://raw.githubusercontent.com/MandyMeindersma/CMPUT-404-lab-1/master/lab1.py")
 print(a.text)
 
-# NOTES
+# NOTES taken during lab
 # when using curl the -i shows headers
 # -L this does location, it will automatically redirect you to where you are supposed to be
