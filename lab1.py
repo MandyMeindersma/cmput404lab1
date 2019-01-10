@@ -8,7 +8,7 @@ print(r.text)
 # print(dir(r)) #to print whole object attributes
 
 
-a = requests.get("github url")
+a = requests.get("https://raw.githubusercontent.com/MandyMeindersma/CMPUT-404-lab-1/master/lab1.py")
 print(a.text)
 
 # NOTES
